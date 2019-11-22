@@ -1,2 +1,22 @@
 usernmae = dabbing.developer@gmail.com
 password = twitterFaker6969
+
+1.) In the __intit__ funtion we are defining the bot with the web driver
+
+2.) We are then logging into the account
+    - goes to twitter.com
+    - Sets a 3 second timer to make sure that the page is fully loaded 
+    - Use the bot that we initialized to get the elements that we need && doing the same with the password
+    - Run the .clear() function to make sure that the input areas are cleared.
+    - Run the .send_keys() function with the self.email && self.password variables to login 
+    - Make sure to return the Keys.RETURN to execute the following commands
+
+|| Functions ||
+
+likeTweet
+
+1.) Define the bot 
+2.) we need to access the link where we will be posting by using a bot.get()
+
+
+
