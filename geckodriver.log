@@ -3274,40 +3274,42 @@ Pn@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:30619
 
 [Child 10688, MediaDecoderStateMachine #2] WARNING: Decoder=2658243dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
 [Child 10688, MediaDecoderStateMachine #2] WARNING: Decoder=2658243dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
-tension permission: resource://pdf.js/
-1574413411484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1574413412703	Marionette	INFO	Listening on port 64447
-1574413413207	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 14788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 14788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task[Child 15420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 15420, Chrome_ChildThr[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 18780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_157240153[Child 122683,/build/src/ipc/c Chrome_ChildThread] Whromium/src/chrome/common/ipARc_channel_win.cc, lNING: pipei neer ror: 3109: 41
-file z:/t[Chask_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 12268, Ch[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 8252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
-[Child 8252, 1574413901706	Marionette	INFO	Stopped listening on port 64447
-[GPU 15
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:933:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): node is null"
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=2658dc96400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=2658dc96400 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=2658e011800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=2658e011800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10688, MediaDecoderStateMachine #1] WARNING: Decoder=2658e011800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+console.error: "TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24\nonMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:425:12\n"
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:425:12
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:933:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): node is null"
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 17956, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 17956, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1288, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1288, Chro[Child 10688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10688, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrom[Parent 17956, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15000, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15000, Chr1574415040977	Marionette	INFO	Stopped listening on port 64356
+
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
-8
+[G
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
-1574414029349	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofilefMDop1"
-1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
-1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
-1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
-1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
-JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
-1574414030867	Marionette	INFO	Listening on port 64576
-1574414031358	Marionette	WARN	TLS certificate errors will be ignored for this session
-[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
-[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
-[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
-[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
-[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
 [Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
 IPDL protocol error: Handler returned error code!
 
@@ -3369,5 +3371,64 @@ IPDL protocol error: Handler returned error code!
 ###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
 
 [GPU 8804, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574414925884	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofile0LkC1e"
+1574414926201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574414926201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574414926201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574414926201	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574414927443	Marionette	INFO	Listening on port 64780
+1574414927891	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=201431b0800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 6864, MediaDecoderStateMachine #1] WARNING: Decoder=20143190000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Parent 13644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 6864, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/ch[Child 9020, Chrome_Crome/choimlmon/ipc_dThreadc]h WARNING: pipe error: 109: file z:a/task_1572401533/build/src/ipc/chromium/src/chrome/ncnoemlm_owni/ni.pc_channel_win.cc, line cc, l3i4n1e
+ 341
+[Child 9020, [Child 6864, Chrome_ChildThread] WARNING: pipe error: 109: file [Parent 13644, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10008, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 10008, Chrome_ChildT1574415042104	Marionette	INFO	Stopped listening on port 64780
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 3580, Chrom
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574415061719	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofileQR3Yz6"
+1574415062011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574415062011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574415062011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574415062011	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574415063193	Marionette	INFO	Listening on port 64864
+1574415063226	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 16620, MediaDecoderStateMachine #1] WARNING: Decoder=18a84fe5000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Parent 2252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 2252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16620, Chrome_ChildThread] WARNING: pipe er[Child 14944, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 1ror: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16620, [Parent 2252, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8256, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8256, Chrome_C1574415244736	Marionette	INFO	Stopped listening on port 64864
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 

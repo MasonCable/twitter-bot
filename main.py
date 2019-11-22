@@ -73,7 +73,8 @@ class TwitterBot:
                     print(link)
                     bot.get(link)
                     try:
-                        bot.find_element_by_class_name(pass).click()
+                        # bot.find_element_by_class_name('r-yyyyoo').click()
+                        # bot.find_element_by_xpath("//div[@data-testid='like']").click()
                         time.sleep(5)
                     except Exception as ex:
                         time.sleep(60)
