@@ -51,18 +51,19 @@ class TwitterBot:
         bot.get('https://twitter.com/search?q='+ hashtag +'&src=typed_query')
         time.sleep(3)
         for i in range(1,3):
-            # bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
-            # time.sleep(2)
-            # tester = 'css-1dbjc4n'
+            bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
+            time.sleep(2)
             tweets = bot.find_elements_by_class_name('tweet')
-            links = [elem.get_attribute('data-permalink-path') for elem in tweets]
+            # links = [elem.get_attribute('data-permalink-path') for elem in tweets]
+            # The following code works the same way as the links variable above
             tweetLinks = [i.get_attribute('href') for i in bot.find_elements_by_xpath("//a[@dir='auto']")]
 
             for i in bot.find_elements_by_xpath("//a[@dir='auto']"):
                 filteredLinks = list(filter(lambda x: 'status' in x, tweetLinks))
                 time.sleep(2)
-                bot.get(filteredLinks)
-                print(filteredLinks)
+                # bot.get(filteredLinks)
+                toString = ''.join(filteredLinks)
+                print(toString)
             # for link in links:
             #     bot.get('https://twitter.com/' + link)
             #     print(link)
