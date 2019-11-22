@@ -5,11 +5,14 @@ from selenium.webdriver.common.keys import Keys
 import time
 
 
+
 class TwitterBot:
-    def __init__(self, username, password):
+    def __init__(self, username, password, hashtag):
         self.username = username
         self.password = password
         self.bot = webdriver.Firefox()
+        self.hashtag = hashtag
+        self.postArea = 'public-DraftStyleDefault-block'
 
     def login(self):
         bot = self.bot
@@ -22,38 +25,54 @@ class TwitterBot:
         email.send_keys(self.username)
         password.send_keys(self.password)
         password.send_keys(Keys.RETURN)
-     
+        time.sleep(3)
 
     def makePost(self, post):
         postArea = 'public-DraftStyleDefault-block'
 
+    # This function was built when I had a problem with being logged out afer the initial link change
 
-    def likeTweet(self, hashtag):
+    def logBackIn(self):
         bot = self.bot
+        hashtag = self.hashtag
+        bot.get('https://twitter.com/search?q='+ hashtag +'&src=typed_query')
+        email = bot.find_element_by_name('session[username_or_email]')
+        password = bot.find_element_by_name('session[password]')
+        email.clear()
+        password.clear()
+        email.send_keys(self.username)
+        password.send_keys(self.password)
+        password.send_keys(Keys.RETURN)
+        time.sleep(10)
+
+    def likeTweet(self):
+        bot = self.bot
+        hashtag = self.hashtag
         bot.get('https://twitter.com/search?q='+ hashtag +'&src=typed_query')
         time.sleep(3)
         for i in range(1,3):
-            bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
-            time.sleep(3)
+            # bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
+            # time.sleep(2)
+            # tester = 'css-1dbjc4n'
             tweets = bot.find_elements_by_class_name('tweet')
             links = [elem.get_attribute('data-permalink-path') for elem in tweets]
-            for link in links:
-                bot.get('https://twitter.com/' + link)
-               
-    
-    def checkIfLoggedIn(self):
-        bot = self.bot
-        test = 'https://twitter.com/search?q=funny&src=typed_query'
-        test2 = 'https://twitter.com/'
-        bot.get(test2)
-        email = bot.find_element_by_name('session[username_or_email]')
-    
-        if email == email:
-            postArea = 'public-DraftStyleDefault-block'
-            print('Not Logged in')
-        else:
-            print('All Is good')
+            tweetLinks = [i.get_attribute('href') for i in bot.find_elements_by_xpath("//a[@dir='auto']")]
 
+            for i in bot.find_elements_by_xpath("//a[@dir='auto']"):
+                filteredLinks = list(filter(lambda x: 'status' in x, tweetLinks))
+                time.sleep(2)
+                bot.get(filteredLinks)
+                print(filteredLinks)
+            # for link in links:
+            #     bot.get('https://twitter.com/' + link)
+            #     print(link)
+                # try:
+                #     bot.find_element_by_class_name('HeartAnimation').click()
+                #     time.sleep(10)
+                # except Exception as ex:
+                #     time.sleep(60)
+                #     print(ex)
+        
     def loginFromHashtag(self):
         bot = self.bot
         bot.get('https://twitter.com/search?q=funny&src=typed_query')
@@ -81,12 +100,12 @@ class TwitterBot:
                     time.sleep(60)
                     print(ex)
 
-mainAccount = TwitterBot('dabbing.developer@gmail.com', 'twitterFaker#6969')
+mainAccount = TwitterBot('dabbing.developer@gmail.com', 'twitterFaker#6969', 'funny')
 
-# Make sure that each functions logs in to prevent the error that we were getting with the mainAccount.login() 
-#mainAccount.loginFromHashtag()
+
 mainAccount.login()
-mainAccount.likeTweet('funny')
+mainAccount.likeTweet()
+
 
 
 
