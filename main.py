@@ -6,6 +6,7 @@ import time
 
 
 
+
 class TwitterBot:
     def __init__(self, username, password, hashtag):
         self.username = username
@@ -29,6 +30,13 @@ class TwitterBot:
 
     def makePost(self, post):
         postArea = 'public-DraftStyleDefault-block'
+        bot = self.bot
+        
+        postInput =  bot.find_element_by_class_name(postArea)
+
+        postInput.clear()
+        postInput.send_keys(post)
+        postInput.send_keys(Keys.RETURN)
 
     # This function was built when I had a problem with being logged out afer the initial link change
 
@@ -53,17 +61,24 @@ class TwitterBot:
         for i in range(1,3):
             bot.execute_script('window.scrollTo(0, document.body.scrollHeight)')
             time.sleep(2)
-            tweets = bot.find_elements_by_class_name('tweet')
-            # links = [elem.get_attribute('data-permalink-path') for elem in tweets]
-            # The following code works the same way as the links variable above
+            
             tweetLinks = [i.get_attribute('href') for i in bot.find_elements_by_xpath("//a[@dir='auto']")]
+            
 
             for i in bot.find_elements_by_xpath("//a[@dir='auto']"):
                 filteredLinks = list(filter(lambda x: 'status' in x, tweetLinks))
-                time.sleep(2)
-                # bot.get(filteredLinks)
-                toString = ''.join(filteredLinks)
-                print(toString)
+                # HANDLING THE ITEMS WITHIN THE ARRAY
+                # print(filteredLinks)
+                for link in filteredLinks:
+                    print(link)
+                    bot.get(link)
+                    try:
+                        bot.find_element_by_class_name(pass).click()
+                        time.sleep(5)
+                    except Exception as ex:
+                        time.sleep(60)
+                        print(ex)
+
             # for link in links:
             #     bot.get('https://twitter.com/' + link)
             #     print(link)

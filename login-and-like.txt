@@ -16,7 +16,36 @@ password = twitterFaker6969
 likeTweet
 
 1.) Define the bot 
-2.) we need to access the link where we will be posting by using a bot.get()
+2.) We need to access the link where we will be posting by using a bot.get()
+3.) 
 
-
-
+|| Example Response ||
+    [       
+        'https://twitter.com/bodho2/status/1197776789986144257', 
+        'https://twitter.com/Talk2jordan_lee/status/1197787755964751873', 
+        'https://twitter.com/forevercfr/status/1197799686687657984', 
+        'https://twitter.com/spacetwinks/status/1197763179927003136', 
+        'https://twitter.com/argandito/status/1197780903025692672', 
+        'https://twitter.com/kingMoy9/status/1197765791644557312',
+        'https://twitter.com/vivi_guard/status/1197786087848054786',
+        'https://twitter.com/MelissaSz89/status/1197765669384785920',
+        'https://twitter.com/DonteMacc/status/1197774121167253504', 
+        'https://twitter.com/dayan_shan/status/1197775078508912640',
+        'https://twitter.com/IAmSteveHarvey/status/1197791269038116864',
+        'https://twitter.com/RottenDeadpan/status/1197765130970443776', 
+        'https://twitter.com/TheMikiiz/status/1197782803296989185', 
+        'https://twitter.com/Massawyrm/status/1197751773932523520', 
+        'https://twitter.com/PaulMabosh/status/1197776602458939392',
+        'https://twitter.com/PaulMabosh/status/1197776602458939392/media_tags',
+        'https://twitter.com/PlainRealTruth/status/1197804668749000704', 
+        'https://twitter.com/etherealjades/status/1197759048793366528',
+        'https://twitter.com/AyyyKunYT/status/1197774509635334145',
+        'https://twitter.com/ForzaFerrari15/status/1197782608156999680', 
+        'https://twitter.com/blueizuku/status/1197755791014428672', 
+        'https://twitter.com/blueizuku/status/1197755791014428672/media_tags',
+        'https://twitter.com/naturetape/status/1197754606870126592', 
+        'https://twitter.com/yeoldeuxx/status/1197794179444690945', 
+        'https://twitter.com/beachfan412/status/1197758184355696645', 
+        'https://twitter.com/AllotmentCat/status/1197804665892683776',
+        'https://twitter.com/AxiomBaby/status/1197804641540608000'
+    ]

@@ -2848,3 +2848,526 @@ IPDL protocol error: Handler returned error code!
 [GPU 18280, Chrom
 ###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
 
+1574411013386	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofilei34QIa"
+1574411013685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574411013685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574411013685	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574411013686	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574411015034	Marionette	INFO	Listening on port 62963
+1574411015396	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 17152, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15568, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15568[Child 14140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14140, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_ch[Parent 17152, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15492, Chrome_ChildThread] WARNING: pipe1574411497277	Marionette	INFO	Stopped listening on port 62963
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 18988, Chrome
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+code error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14696, MediaDecoderStateMachine #1] WARNING: Decoder=2204583c800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 16320, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13292, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13292, C[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14696, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/co[Child 7100, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7100, Chrom1574411496882	Marionette	INFO	Stopped listening on port 63144
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 18340, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18340, Chrome_Chil[Child 15104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15104, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 12988, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16612, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 16612, Chrome_ChildThread] WARNING: pipe e1574411498433	Marionette	INFO	Stopped listening on port 63290
+[GPU 13
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+460,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574411606485	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofile9GzoIn"
+1574411606780	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574411606781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574411606781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574411606781	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574411607893	Marionette	INFO	Listening on port 63550
+1574411607991	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 98: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 97: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 97: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 97: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 97: Error: 
+JavaScript error: https://twitter.com/kingMoy9/status/1197765791644557312, line 97: Error: 
+JavaScript warning: https://static.adsafeprotected.com/sca.17.4.95.js, line 32: Array.slice is deprecated; use Array.prototype.slice instead
+[Parent 15444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14096, Chrome_[Child 13672, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13672, Chrome_ChildThread] WARIPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 18536, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18536, Chr[Parent 15444, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 17624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/taskconsole.error: (new Error("Connection closed before committing the transaction.", "resource://gre/modules/Sqlite.jsm", 683))
+[Parent 15444, Gecko_IOThread] WARNING: pipe error: 232: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 502
+1574411715619	Marionette	INFO	Stopped listening on port 63550
+[GPU 17880
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+atus/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+JavaScript error: https://twitter.com/BekithembaZ/status/1197752874656305152, line 98: Error: 
+[Parent 16008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5492, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 5492, Chrom[Parent 16008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14300, Ch[Parent 16008, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2496, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2496, Chro1574411717678	Marionette	INFO	Stopped listening on port 63696
+[GPU 
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+5696,
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574411871567	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofileNEAbFA"
+1574411871861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574411871861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574411871861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574411871861	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574411873086	Marionette	INFO	Listening on port 63787
+1574411873573	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 18876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18876, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 17972, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chro
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+me/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Parent 17828, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14748, Chrome_ChildThread] WARNING: pipe error: 109: file z:/ta1574412835938	Marionette	INFO	Stopped listening on port 63787
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 184
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+ecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 15016, MediaDecoderStateMachine #1] WARNING: Decoder=235d205d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 15016, MediaDecoderStateMachine #1] WARNING: Decoder=235d205d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 15016, MediaDecoderStateMachine #1] WARNING: Decoder=235d205d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 15016, MediaDecoderStateMachine #1] WARNING: Decoder=235d205d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 15016, MediaDecoderStateMachine #1] WARNING: Decoder=235d205d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 15016, MediaDecoderStateMachine #1] WARNING: Decoder=235d205d000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 18460, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4428, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 18460, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[Child 15016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15016, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromiu[Parent 18460, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4436, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 4436, Chrome_ChildThread] WARNING: pipe error: 11574412836037	Marionette	INFO	Stopped listening on port 63860
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #1] WARNING: Decoder=21080909000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #1] WARNING: Decoder=21080909000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #1] WARNING: Decoder=21080909000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #1] WARNING: Decoder=21080909000 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 14640, MediaDecoderStateMachine #2] WARNING: Decoder=21081202800 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+console.error: "TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24\nonMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:425:12\n"
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:425:12
+
+console.error: "TypeError: this.parentFront is null: get inspectorFront@resource://devtools/shared/fronts/node.js:409:5\nget highlighterFront@resource://devtools/shared/fronts/node.js:413:5\n_showBoxModel@resource://devtools/client/inspector/markup/markup.js:704:5\n_brieflyShowBoxModel@resource://devtools/client/inspector/markup/markup.js:737:26\n_onNewSelection@resource://devtools/client/inspector/markup/markup.js:931:29\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nsetNodeFront@resource://devtools/client/framework/selection.js:161:10\nonDetached@resource://devtools/client/inspector/inspector.js:1545:20\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\n_onMutations@resource://devtools/client/framework/selection.js:104:12\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:425:12\n"
+TypeError: this.parentFront is null: get inspectorFront@resource://devtools/shared/fronts/node.js:409:5
+get highlighterFront@resource://devtools/shared/fronts/node.js:413:5
+_showBoxModel@resource://devtools/client/inspector/markup/markup.js:704:5
+_brieflyShowBoxModel@resource://devtools/client/inspector/markup/markup.js:737:26
+_onNewSelection@resource://devtools/client/inspector/markup/markup.js:931:29
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1545:20
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:425:12
+
+console.error: "Error: Can not send request because front 'domnode' is already destroyed.: generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:29:15\nupdateSelectionCssSelector@resource://devtools/client/inspector/inspector.js:1397:32\nonNewSelection@resource://devtools/client/inspector/inspector.js:1468:10\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\nsetNodeFront@resource://devtools/client/framework/selection.js:161:10\nonDetached@resource://devtools/client/inspector/inspector.js:1545:20\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\n_onMutations@resource://devtools/client/framework/selection.js:104:12\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:425:12\n"
+Error: Can not send request because front 'domnode' is already destroyed.: generateRequestMethods/</frontProto[name]@resource://devtools/shared/protocol/Front/FrontClassWithSpec.js:29:15
+updateSelectionCssSelector@resource://devtools/client/inspector/inspector.js:1397:32
+onNewSelection@resource://devtools/client/inspector/inspector.js:1468:10
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+setNodeFront@resource://devtools/client/framework/selection.js:161:10
+onDetached@resource://devtools/client/inspector/inspector.js:1545:20
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+_onMutations@resource://devtools/client/framework/selection.js:104:12
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:425:12
+
+console.error: "Error while calling actor 'pagestyle's method 'getLayout'" "node is null"
+console.error: "getLayout@resource://devtools/server/actors/styles.js:933:5\nhandler@resource://devtools/shared/protocol/Actor.js:154:37\nonPacket@resource://devtools/server/debugger-server-connection.js:378:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:66:16\n"
+console.error: "Protocol error (unknownError): node is null"
+console.error: "TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24\nonMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:425:12\n"
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:425:12
+
+console.error: "TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24\nonMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41\nemit@resource://devtools/shared/event-emitter.js:190:24\nemit@resource://devtools/shared/event-emitter.js:271:18\ngetMutations/<@resource://devtools/shared/fronts/inspector.js:425:12\n"
+TypeError: parent is null: canMutationImpactCurrentStyles@resource://devtools/client/inspector/shared/style-change-tracker.js:63:24
+onMutations@resource://devtools/client/inspector/shared/style-change-tracker.js:80:41
+emit@resource://devtools/shared/event-emitter.js:190:24
+emit@resource://devtools/shared/event-emitter.js:271:18
+getMutations/<@resource://devtools/shared/fronts/inspector.js:425:12
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 9168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14500, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14500, C[Child 14640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14640, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9168, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7624, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 7624, Chrome_ChildThread] WARNING: pipe err1574412836040	Marionette	INFO	Stopped listening on port 63958
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 18096, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574412844103	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofileXaUS0I"
+1574412844388	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574412844389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574412844389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574412844389	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574412845605	Marionette	INFO	Listening on port 64165
+1574412845611	Marionette	WARN	TLS certificate errors will be ignored for this session
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Child 736, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 736, Chrome_ChildTh[Parent 9904, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 2156, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 9904, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Ch1574413171068	Marionette	INFO	Stopped listening on port 64165
+[GPU 18608, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+n.cc, line 341
+[Child 15168, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18160, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18160, Chrom1574413171245	Marionette	INFO	Stopped listening on port 64279
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 15608, Ch
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574413242596	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofileXSU1T9"
+1574413242885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574413242885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574413242885	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574413242886	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574413244095	Marionette	INFO	Listening on port 64356
+1574413244108	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript warning: https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js, line 77: Error: Script terminated by timeout at:
+ce@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:5638
+n@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:7145
+n@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:7145
+se@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:5974
+extractEvents@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:29929
+kn@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:30358
+Di@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:98430
+Fe@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:10273
+Cn@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:30876
+Li/<@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:98708
++wdc/</t.unstable_runWithPriority@https://abs.twimg.com/responsive-web/web/main.f5ab2744.js:10:2818
+Li@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:98632
+Pn@https://abs.twimg.com/responsive-web/web/vendors~main.439eb304.js:77:30619
+
+[Child 10688, MediaDecoderStateMachine #2] WARNING: Decoder=2658243dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10688, MediaDecoderStateMachine #2] WARNING: Decoder=2658243dc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+tension permission: resource://pdf.js/
+1574413411484	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574413412703	Marionette	INFO	Listening on port 64447
+1574413413207	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 14788, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task[Child 15420, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 15420, Chrome_ChildThr[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18780, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_157240153[Child 122683,/build/src/ipc/c Chrome_ChildThread] Whromium/src/chrome/common/ipARc_channel_win.cc, lNING: pipei neer ror: 3109: 41
+file z:/t[Chask_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12268, Ch[Parent 10884, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8252, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 8252, 1574413901706	Marionette	INFO	Stopped listening on port 64447
+[GPU 15
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+8
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+1574414029349	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "-marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\mason\\AppData\\Local\\Temp\\rust_mozprofilefMDop1"
+1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: mozillaAddons
+1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: telemetry
+1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: resource://pdf.js/
+1574414029641	addons.webextension.screenshots@mozilla.org	WARN	Loading extension 'screenshots@mozilla.org': Reading manifest: Invalid extension permission: about:reader*
+JavaScript error: resource://gre/modules/XULStore.jsm, line 66: Error: Can't find profile directory.
+1574414030867	Marionette	INFO	Listening on port 64576
+1574414031358	Marionette	WARN	TLS certificate errors will be ignored for this session
+[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 10260, MediaDecoderStateMachine #1] WARNING: Decoder=1451c8bdc00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PLayerTransaction::Msg_ReleaseLayer Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+IPDL protocol error: Handler returned error code!
+
+###!!! [Parent][DispatchAsyncMessage] Error: PImageBridge::Msg_Update Processing error: message was deserialized, but the handler returned false (indicating failure)
+
+[Parent 10208, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 13680, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromiu[mC/hild 10260, Csrc/chrohmre/common/ipc_choannelm_win.cc, line 341
+[Child 13680, Chrome_ChildThread]e_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Chi[Parent 10208, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12476, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12476, Chrome_ChildThrea1574414380442	Marionette	INFO	Stopped listening on port 64576
+[GPU
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+ 17704, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
+401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Child 12408, MediaDecoderStateMachine #1] WARNING: Decoder=1a21d104c00 Decode error: NS_ERROR_DOM_MEDIA_FATAL_ERR (0x806e0005) - RefPtr<MediaSourceTrackDemuxer::SamplesPromise> __cdecl mozilla::MediaSourceTrackDemuxer::DoGetSamples(int32_t): manager is detached.: file z:/task_1572401533/build/src/dom/media/MediaDecoderStateMachine.cpp, line 3305
+[Parent 18700, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18916, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 18916, Chrome_ChildThr[Child 12408, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 12408, Chrome_ChildThre[Parent 18700, Gecko_IOThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19028, Chrome_ChildThread] WARNING: pipe error: 109: file z:/task_1572401533/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 341
+[Child 19028, C1574414381710	Marionette	INFO	Stopped listening on port 64673
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+[GPU 8804, 
+###!!! [Child][MessageChannel::SendAndWait] Error: Channel error: cannot send/recv
+
