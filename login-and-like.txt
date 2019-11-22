@@ -11,6 +11,10 @@ password = twitterFaker6969
     - Run the .send_keys() function with the self.email && self.password variables to login 
     - Make sure to return the Keys.RETURN to execute the following commands
 
+3.) Using the api
+    - Find out how to make a request to the api that uses the link codes from the like tweet function
+    - Learn how to make posts with the api
+
 || Functions ||
 
 login
