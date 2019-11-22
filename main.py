@@ -13,9 +13,22 @@ class TwitterBot:
         username = self.username
         password = self.password
         hashtag = self.hashtag
+        tokens = {
+            '1',
+            '2',
+            '3',
+            '4'
+        }
+
         mainAccount = Search(username, password, hashtag)
+        apiAccount = ApiFunctions(tokens)
+    
+        apiAccount.getTl()
         mainAccount.login()
         mainAccount.scrollTweets()
+
+
+
 
 startBot = TwitterBot('dabbing.developer@gmail.com', 'twitterFaker#6969', 'funny')
 startBot.start()

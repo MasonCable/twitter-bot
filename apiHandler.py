@@ -2,7 +2,16 @@ import requests
 from twitter import *
 
 class ApiFunctions:
-    pass
+    def __init__(self, authTokens):
+        self.authTokens = authTokens
+        
+    def getTl(self):
+        # authTokens returns a response like this
+        # {'2', '3', '4', '1'}
+        (token, token_secret, consumer_key, consumer_secret) = self.authTokens
+        print(token, token_secret, consumer_key, consumer_secret)
+        
+    
     # def __init__(self, post, hashtag):
     #     self.post = post
     #     self.hashtag = tag
