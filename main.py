@@ -13,12 +13,7 @@ class TwitterBot:
         username = self.username
         password = self.password
         hashtag = self.hashtag
-        tokens = {
-            '1',
-            '2',
-            '3',
-            '4'
-        }
+        tokens = {'1','2','3', '4'}
 
         mainAccount = Search(username, password, hashtag)
         apiAccount = ApiFunctions(tokens)
