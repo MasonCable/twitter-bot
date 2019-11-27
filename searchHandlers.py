@@ -1,6 +1,7 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 import time
+  
 
 class  Search:
     def __init__(self, username, password, hashtag):
@@ -48,3 +49,5 @@ class  Search:
                     except Exception as ex:
                         time.sleep(60)
                         print('There was an error')
+
+    
