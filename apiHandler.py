@@ -1,17 +1,22 @@
 import requests
 from twitter import *
+import requests
+from cred import access_token, access_token_secret, consumer_key, consumer_secret
+
 
 class ApiFunctions:
-    def __init__(self, authTokens):
-        self.authTokens = authTokens
+    def __init__(self, hashtag):
+        self.hashtag = hashtag
+        self.twit = Twitter(auth=OAuth(consumer_key, consumer_secret, access_token_secret, access_token_secret))
         
     def getTl(self):
-        # authTokens returns a response like this
-        # {'2', '3', '4', '1'}
-        (token, token_secret, consumer_key, consumer_secret) = self.authTokens
-        print(token, token_secret, consumer_key, consumer_secret)
-        
+        twit = self.twit
+        data = twit.statuses.home_timeline()
+        print(data)
     
+apiAccount = ApiFunctions('funny')
+apiAccount.getTl()
+############################################################################################################
     # def __init__(self, post, hashtag):
     #     self.post = post
     #     self.hashtag = tag

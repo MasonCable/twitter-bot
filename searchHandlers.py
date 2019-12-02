@@ -45,7 +45,8 @@ class  Search:
                     try:
                         # bot.find_element_by_class_name('r-yyyyoo').click()
                         # bot.find_element_by_xpath("//*[@id='react-root']/div/div/div/main/div/div/div/div[1]/div/div[2]/div/section/div/div/div/div[1]/div/article/div/div[6]/div[3]/div/div").click()
-                        time.sleep(5)
+                        
+                        time.sleep(100)
                     except Exception as ex:
                         time.sleep(60)
                         print('There was an error')

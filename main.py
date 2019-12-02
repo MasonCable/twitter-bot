@@ -1,6 +1,8 @@
 # This is where we handle the twitter api
-from apiHandler import ApiFunctions
+# from apiHandler import ApiFunctions
 from searchHandlers import Search
+# Remember to send apiHandler the tokens
+from cred import access_token, access_token_secret, consumer_key, consumer_secret
 
 
 class TwitterBot:
@@ -8,19 +10,26 @@ class TwitterBot:
         self.username = username
         self.password = password
         self.hashtag = hashtag
-
+      
     def start(self):
         username = self.username
         password = self.password
         hashtag = self.hashtag
-        tokens = {'1','2','3', '4'}
+        
 
+        # runs the search Handlers code
         mainAccount = Search(username, password, hashtag)
-        apiAccount = ApiFunctions(tokens)
+        
+        # apiAccount = ApiFunctions(self.hashtag)
     
-        apiAccount.getTl()
+        # apiAccount.getTl()
+        # runs the search Handlers code
         mainAccount.login()
         mainAccount.scrollTweets()
+ 
+
+
+
 
 
 
